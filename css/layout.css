@@ -1,0 +1,781 @@
+@charset "utf-8";
+
+/*　　ヘッダー　-------------------------------------------------*/
+
+h1{
+    padding-top: 40px;
+    padding-left: 40px;
+    float: left;
+}
+
+.slides{
+    width: 660px;
+    height: 400px;
+    margin:0 auto;
+    
+}
+
+.flexslider{
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    transition: .3s;
+}
+
+header{
+    clear: left;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    transition: .3s;
+}
+
+
+
+#grovalnav a{
+    display: block;
+    float: left;
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+#grovalnav a:hover {
+    border-top: 1px solid #669999;
+    opacity: 0.8;
+}
+
+.navcolor1{
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    color: #6F4B3E;
+    line-height: 70px;
+}
+
+.navcolor2{
+    font-family: HiraKakuProN-W3;
+    font-size: 20px;
+    color: #686666;
+}
+
+/*　　サロンインフォ　-------------------------------------------------*/
+
+#SALONINFO{
+    clear: left;
+    padding-top: 68px;
+}
+
+#saloninfoTitle h2{
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    color: #669999;
+    text-align: center;
+    background-image: url("../images/Line.png");
+    background-repeat: no-repeat;
+    background-position : center bottom;
+    height: 60px;
+}
+
+#saloninfoTitle p{
+    font-family: HiraKakuProN-W3;
+    font-size: 18px;
+    color: #686666;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#secEspace{
+    width: 1440px;
+    height: 400px;
+    background-color: #F7FBFB;
+    overflow: hidden;
+    position: relative;
+}
+
+#secEspaceImage{
+    float: left;
+    width: 660px;
+}
+
+#Triangle_Left{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 640px;
+}
+
+#secEspace h3{
+    font-family: Raleway-Medium;
+    font-size: 90px;
+    color: #99CCCC;
+    padding-left: 40px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#secEspaceSentence{
+    font-family: HiraKakuProN-W3;
+    width: 680px;
+    font-size: 15px;
+    color: #686666;
+    letter-spacing: 4.5px;
+    padding-left: 40px;
+    padding-top: 43px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+#secEspaceConcept{
+    overflow: hidden;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+#secEspaceConcept a{
+    float: left;
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: #99CCCC;
+    display: block;
+    width: 264px;
+    height: 64px;
+    background: #F7FBFB;
+    border: 2px solid #99CCCC;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#secEspaceConcept a:hover {
+    background-color: #99CCCC;
+    color: #F7FBFB;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+#secRelax{
+    clear: left;
+    width: 1440px;
+    height: 400px;
+    background-color: #F7FBFB;
+    overflow: hidden;
+    position: relative;
+}
+
+#secRelaxImage {
+    float: right;
+    width: 660px;
+}
+
+#Triangle_Right{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 640px;
+}
+
+#secRelax h3{
+    font-family: Raleway-Medium;
+    font-size: 90px;
+    color: #99CCCC;
+    padding-left: 520px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#secRelaxSentence{
+    font-family: HiraKakuProN-W3;
+    width: 680px;
+    font-size: 15px;
+    color: #686666;
+    letter-spacing: 4.5px;
+    padding-left: 70px;
+    padding-top: 43px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+#secRelaxMenu{
+    overflow: hidden;
+    padding-left: 460px;
+    padding-top: 90px;
+}
+
+#secRelaxMenu a{
+    float: left;
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: #99CCCC;
+    display: block;
+    width: 264px;
+    height: 64px;
+    background: #F7FBFB;
+    border: 2px solid #99CCCC;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#secRelaxMenu a:hover {
+    background-color: #99CCCC;
+    color: #F7FBFB;
+    border: 2px solid white;
+}
+
+/*　　エスパススタッフ　-------------------------------------------------*/
+
+#ESPACESTAFF{
+    padding-top: 68px;
+}
+
+#espacestaffTitle h2{
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    color: #669999;
+    text-align: center;
+    background-image: url("../images/Line.png");
+    background-repeat: no-repeat;
+    background-position : center bottom;
+    height: 60px;
+}
+
+#espacestaffTitle p{
+    font-family: HiraKakuProN-W3;
+    font-size: 18px;
+    color: #686666;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* ↓一括管理↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+.fontEtc{
+    font-family: HiraKakuProN-W3;
+    font-size: 18px;
+    color: #686666;
+    letter-spacing: 3px;
+}
+
+.moreFonts a{
+    /* More: */
+    font-family: Raleway-Medium;
+    font-size: 24px;
+    color: #99CCCC;
+    text-decoration: none;
+}
+
+.moreFonts a:hover{
+    opacity: 0.5;
+}
+
+/* ↑一括管理↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+#secNagata{
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+}
+
+#secNagataImage{
+    float: left;
+    width: 280px;
+}
+
+#secNagataCont{
+    width: 577px;
+    height: 307px;
+    background-color: #F7FBFB;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    z-index: -1;
+}
+
+#secNagataContMain{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 350px;
+    height: 250px;
+}
+
+#secNagataName{
+    padding-bottom: 40px;
+}
+
+#secNagataShar{
+    padding-bottom: 40px;
+}
+
+#secNagataSentence{
+    line-height: 25px;
+}
+
+#secNagataMore{
+    position: absolute;
+    top: 410px;
+    left: 720px;
+}
+
+
+
+#secKagawa{
+    clear: left;
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+}
+
+#secKagawaImage{
+    float: right;
+    width: 280px;
+}
+
+#secKagawaCont{
+    width: 577px;
+    height: 307px;
+    background-color: #F7FBFB;
+    position: absolute;
+    top: 125px;
+    right: 125px;
+    z-index: -1;
+}
+
+#secKagawaContMain{
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 350px;
+    height: 250px;
+}
+
+#secKagawaName{
+    padding-bottom: 40px;
+}
+
+#secKagawaShar{
+    padding-bottom: 40px;
+}
+
+#secKagawaSentence{
+    line-height: 25px;
+}
+
+#secKagawaMore{
+    position: absolute;
+    top: 410px;
+    left: 660px;
+}
+
+
+#secYamamoto{
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+    clear: both;
+}
+
+#secYamamotoImage{
+    float: left;
+    width: 280px;
+}
+
+#secYamamotoCont{
+    width: 577px;
+    height: 307px;
+    background-color: #F7FBFB;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    z-index: -1;
+}
+
+#secYamamotoContMain{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 350px;
+    height: 250px;
+}
+
+#secYamamotoName{
+    padding-bottom: 40px;
+}
+
+#secYamamotoShar{
+    padding-bottom: 40px;
+}
+
+#secYamamotoSentence{
+    line-height: 25px;
+}
+
+#secYamamotoMore{
+    position: absolute;
+    top: 410px;
+    left: 720px;
+}
+
+
+#secSibata{
+    clear: left;
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+}
+
+#secSibataImage{
+    float: right;
+    width: 280px;
+}
+
+#secSibataCont{
+    width: 577px;
+    height: 307px;
+    background-color: #F7FBFB;
+    position: absolute;
+    top: 125px;
+    right: 125px;
+    z-index: -1;
+}
+
+#secSibataContMain{
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 350px;
+    height: 250px;
+}
+
+#secSibataName{
+    padding-bottom: 40px;
+}
+
+#secSibataShar{
+    padding-bottom: 40px;
+}
+
+#secSibataSentence{
+    line-height: 25px;
+}
+
+#secSibataMore{
+    position: absolute;
+    top: 410px;
+    left: 660px;
+}
+
+
+#secYanagi{
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+    clear: both;
+}
+
+#secYanagiImage{
+    float: left;
+    width: 280px;
+}
+
+#secYanagiCont{
+    width: 577px;
+    height: 307px;
+    background-color: #F7FBFB;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    z-index: -1;
+}
+
+#secYanagiContMain{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 350px;
+    height: 250px;
+}
+
+#secYanagiName{
+    padding-bottom: 40px;
+}
+
+#secYanagiShar{
+    padding-bottom: 40px;
+}
+
+#secYanagiSentence{
+    line-height: 25px;
+}
+
+#secYanagiMore{
+    position: absolute;
+    top: 410px;
+    left: 720px;
+}
+
+#asideStaffblog{
+    clear: both;
+    width: 264px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#asideStaffblog a{
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: #99CCCC;
+    display: block;
+    width: 264px;
+    height: 64px;
+    background: #F7FBFB;
+    border: 2px solid #99CCCC;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#asideStaffblog a:hover {
+    background-color: #99CCCC;
+    color: #F7FBFB;
+    border: 2px solid white;
+}
+
+#asideReserve{
+    padding-top: 74px;
+    text-align: right;
+}
+
+/*　　フッター　-------------------------------------------------*/
+
+footer{
+    padding-top: 54px;
+    height: 435px;
+}
+
+#footerCont1{
+    overflow: hidden;
+    height: 320px;
+    background-color: #669999;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+footer h2{
+    /* espace: */
+    font-family: HiraKakuProN-W6;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#footerEspace{
+    width: 300px;
+}
+
+#footerTime{
+    margin: 0px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer dl{
+    /* 11:00 - 21:00: */
+    font-family: HiraKakuProN-W6;
+    font-size: 16px;
+    color: #FFFFFF;
+    float: left;
+    width: 400px;
+}
+
+footer dt {
+    width: 50px;
+    float: left;
+    padding-right: 75px;
+    padding-bottom: 0px;
+}
+
+footer dd{
+    padding-bottom: 25px;
+    background-image: url(../images/footerLine.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+#footerAddress{
+    /* 530-0001: */
+    font-family: HiraKakuProN-W6;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+#footerCont2{
+    background-color: #547F7F;
+}
+
+#footerFloatArea{
+    float: left;
+    width: 300px;
+    overflow: hidden;
+    padding-right: 80px;
+}
+
+#footerFloatArea p{
+    padding-bottom: 10px;
+}
+
+#footerNav{
+    float: left;
+}
+
+#footerMap{
+    width: 264px;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+#footerMap a{
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 264px;
+    height: 64px;
+    background: #669999;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#footerMap a:hover {
+    background-color: #99CCCC;
+    color: #F7FBFB;
+    border: 2px solid white;
+}
+
+#footerReserve{
+    width: 264px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#footerReserve a{
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 264px;
+    height: 64px;
+    background: #669999;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+#footerReserve a:hover {
+    background-color: #99CCCC;
+    color: #F7FBFB;
+    border: 2px solid white;
+}
+
+#footerCont2{
+    clear: both;
+    overflow: hidden;
+}
+
+#footerCont2 ul {
+    overflow: hidden;
+    padding-left: 120px;
+    padding-top: 39px;
+}
+
+#footerCont2 li{
+    /* Home: */
+    font-family: HiraKakuProN-W6;
+    font-size: 16px;
+    width: auto;
+    float: left;
+    list-style: none;
+}
+
+#footerCont2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#footerCont2_1{
+    padding-right: 50px;
+}
+
+#footerCont2_1 a:hover{
+    color: yellow;
+}
+
+#footerCont2_2{
+    padding-right: 50px;
+}
+
+#footerCont2_2 a:hover{
+    color: yellow;
+}
+
+#footerCont2_3{
+    padding-right: 50px;
+}
+
+#footerCont2_3 a:hover{
+    color: yellow;
+}
+
+#footerCont2_4{
+    padding-right: 50px;
+}
+
+#footerCont2_4 a:hover{
+    color: yellow;
+}
+
+#footerCont2_5{
+    padding-right: 50px;
+}
+
+#footerCont2_5 a:hover{
+    color: yellow;
+}
+
+#footerCont2_6{
+    padding-right: 50px;
+}
+
+#footerCont2_6 a:hover{
+    color: yellow;
+}
+
+#footerCont2_7 a:hover{
+    color: yellow;
+}
+
+#footerCont2 p{
+    /* Copyrights (C) espac: */
+    font-family: Raleway-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 115px;
+    text-align: center;
+    line-height: 180px;
+}
+
+.footerFonts{
+    /* 会社情報: */
+    font-family: HiraKakuProN-W6;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
